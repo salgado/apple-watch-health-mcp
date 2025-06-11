@@ -598,6 +598,766 @@
       "dayOfWeek": "Thursday",
       "hour": 12,
       "duration": 1500
-    }
+    },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-06 07:15:00",
+          "startDate": "2025-06-06 06:45:00",
+          "endDate": "2025-06-06 07:10:00",
+          "value": 1890,
+          "day": "2025-06-06",
+          "dayOfWeek": "Friday",
+          "hour": 7,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-06 09:30:00",
+          "startDate": "2025-06-06 09:00:00",
+          "endDate": "2025-06-06 09:25:00",
+          "value": 1345,
+          "day": "2025-06-06",
+          "dayOfWeek": "Friday",
+          "hour": 9,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "iPhone 13",
+          "deviceInfo": {
+            "name": "iPhone",
+            "manufacturer": "Apple Inc.",
+            "model": "iPhone",
+            "hardware": "iPhone14,5",
+            "software": "18.4.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-06 11:45:00",
+          "startDate": "2025-06-06 11:15:00",
+          "endDate": "2025-06-06 11:40:00",
+          "value": 567,
+          "day": "2025-06-06",
+          "dayOfWeek": "Friday",
+          "hour": 11,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-06 13:20:00",
+          "startDate": "2025-06-06 12:50:00",
+          "endDate": "2025-06-06 13:15:00",
+          "value": 980,
+          "day": "2025-06-06",
+          "dayOfWeek": "Friday",
+          "hour": 13,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-06 16:00:00",
+          "startDate": "2025-06-06 15:30:00",
+          "endDate": "2025-06-06 15:55:00",
+          "value": 2130,
+          "day": "2025-06-06",
+          "dayOfWeek": "Friday",
+          "hour": 15,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-06 18:45:00",
+          "startDate": "2025-06-06 18:00:00",
+          "endDate": "2025-06-06 18:40:00",
+          "value": 3210,
+          "day": "2025-06-06",
+          "dayOfWeek": "Friday",
+          "hour": 18,
+          "duration": 2400
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-06 21:15:00",
+          "startDate": "2025-06-06 20:45:00",
+          "endDate": "2025-06-06 21:10:00",
+          "value": 890,
+          "day": "2025-06-06",
+          "dayOfWeek": "Friday",
+          "hour": 21,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-07 08:30:00",
+          "startDate": "2025-06-07 08:00:00",
+          "endDate": "2025-06-07 08:25:00",
+          "value": 765,
+          "day": "2025-06-07",
+          "dayOfWeek": "Saturday",
+          "hour": 8,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-07 10:15:00",
+          "startDate": "2025-06-07 09:45:00",
+          "endDate": "2025-06-07 10:10:00",
+          "value": 2890,
+          "day": "2025-06-07",
+          "dayOfWeek": "Saturday",
+          "hour": 10,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "iPhone 13",
+          "deviceInfo": {
+            "name": "iPhone",
+            "manufacturer": "Apple Inc.",
+            "model": "iPhone",
+            "hardware": "iPhone14,5",
+            "software": "18.4.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-07 12:00:00",
+          "startDate": "2025-06-07 11:30:00",
+          "endDate": "2025-06-07 11:55:00",
+          "value": 1230,
+          "day": "2025-06-07",
+          "dayOfWeek": "Saturday",
+          "hour": 11,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-07 14:45:00",
+          "startDate": "2025-06-07 14:00:00",
+          "endDate": "2025-06-07 14:40:00",
+          "value": 4560,
+          "day": "2025-06-07",
+          "dayOfWeek": "Saturday",
+          "hour": 14,
+          "duration": 2400
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-07 17:30:00",
+          "startDate": "2025-06-07 17:00:00",
+          "endDate": "2025-06-07 17:25:00",
+          "value": 1890,
+          "day": "2025-06-07",
+          "dayOfWeek": "Saturday",
+          "hour": 17,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-07 20:00:00",
+          "startDate": "2025-06-07 19:30:00",
+          "endDate": "2025-06-07 19:55:00",
+          "value": 2345,
+          "day": "2025-06-07",
+          "dayOfWeek": "Saturday",
+          "hour": 19,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-08 09:00:00",
+          "startDate": "2025-06-08 08:30:00",
+          "endDate": "2025-06-08 08:55:00",
+          "value": 1120,
+          "day": "2025-06-08",
+          "dayOfWeek": "Sunday",
+          "hour": 8,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-08 11:30:00",
+          "startDate": "2025-06-08 11:00:00",
+          "endDate": "2025-06-08 11:25:00",
+          "value": 890,
+          "day": "2025-06-08",
+          "dayOfWeek": "Sunday",
+          "hour": 11,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "iPhone 13",
+          "deviceInfo": {
+            "name": "iPhone",
+            "manufacturer": "Apple Inc.",
+            "model": "iPhone",
+            "hardware": "iPhone14,5",
+            "software": "18.4.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-08 13:15:00",
+          "startDate": "2025-06-08 12:45:00",
+          "endDate": "2025-06-08 13:10:00",
+          "value": 670,
+          "day": "2025-06-08",
+          "dayOfWeek": "Sunday",
+          "hour": 13,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-08 15:45:00",
+          "startDate": "2025-06-08 15:00:00",
+          "endDate": "2025-06-08 15:40:00",
+          "value": 3780,
+          "day": "2025-06-08",
+          "dayOfWeek": "Sunday",
+          "hour": 15,
+          "duration": 2400
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-08 18:20:00",
+          "startDate": "2025-06-08 17:50:00",
+          "endDate": "2025-06-08 18:15:00",
+          "value": 1560,
+          "day": "2025-06-08",
+          "dayOfWeek": "Sunday",
+          "hour": 18,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-08 21:00:00",
+          "startDate": "2025-06-08 20:30:00",
+          "endDate": "2025-06-08 20:55:00",
+          "value": 980,
+          "day": "2025-06-08",
+          "dayOfWeek": "Sunday",
+          "hour": 20,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-09 06:45:00",
+          "startDate": "2025-06-09 06:15:00",
+          "endDate": "2025-06-09 06:40:00",
+          "value": 2210,
+          "day": "2025-06-09",
+          "dayOfWeek": "Monday",
+          "hour": 6,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-09 08:30:00",
+          "startDate": "2025-06-09 08:00:00",
+          "endDate": "2025-06-09 08:25:00",
+          "value": 1450,
+          "day": "2025-06-09",
+          "dayOfWeek": "Monday",
+          "hour": 8,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "iPhone 13",
+          "deviceInfo": {
+            "name": "iPhone",
+            "manufacturer": "Apple Inc.",
+            "model": "iPhone",
+            "hardware": "iPhone14,5",
+            "software": "18.4.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-09 10:15:00",
+          "startDate": "2025-06-09 09:45:00",
+          "endDate": "2025-06-09 10:10:00",
+          "value": 890,
+          "day": "2025-06-09",
+          "dayOfWeek": "Monday",
+          "hour": 10,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-09 12:00:00",
+          "startDate": "2025-06-09 11:30:00",
+          "endDate": "2025-06-09 11:55:00",
+          "value": 1230,
+          "day": "2025-06-09",
+          "dayOfWeek": "Monday",
+          "hour": 11,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-09 14:30:00",
+          "startDate": "2025-06-09 14:00:00",
+          "endDate": "2025-06-09 14:25:00",
+          "value": 560,
+          "day": "2025-06-09",
+          "dayOfWeek": "Monday",
+          "hour": 14,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-09 17:15:00",
+          "startDate": "2025-06-09 16:45:00",
+          "endDate": "2025-06-09 17:10:00",
+          "value": 2890,
+          "day": "2025-06-09",
+          "dayOfWeek": "Monday",
+          "hour": 17,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-09 19:45:00",
+          "startDate": "2025-06-09 19:00:00",
+          "endDate": "2025-06-09 19:40:00",
+          "value": 3120,
+          "day": "2025-06-09",
+          "dayOfWeek": "Monday",
+          "hour": 19,
+          "duration": 2400
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-10 07:00:00",
+          "startDate": "2025-06-10 06:30:00",
+          "endDate": "2025-06-10 06:55:00",
+          "value": 1890,
+          "day": "2025-06-10",
+          "dayOfWeek": "Tuesday",
+          "hour": 6,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-10 09:15:00",
+          "startDate": "2025-06-10 08:45:00",
+          "endDate": "2025-06-10 09:10:00",
+          "value": 1670,
+          "day": "2025-06-10",
+          "dayOfWeek": "Tuesday",
+          "hour": 9,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "iPhone 13",
+          "deviceInfo": {
+            "name": "iPhone",
+            "manufacturer": "Apple Inc.",
+            "model": "iPhone",
+            "hardware": "iPhone14,5",
+            "software": "18.4.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-10 11:00:00",
+          "startDate": "2025-06-10 10:30:00",
+          "endDate": "2025-06-10 10:55:00",
+          "value": 450,
+          "day": "2025-06-10",
+          "dayOfWeek": "Tuesday",
+          "hour": 10,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-10 13:30:00",
+          "startDate": "2025-06-10 13:00:00",
+          "endDate": "2025-06-10 13:25:00",
+          "value": 890,
+          "day": "2025-06-10",
+          "dayOfWeek": "Tuesday",
+          "hour": 13,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-10 15:45:00",
+          "startDate": "2025-06-10 15:00:00",
+          "endDate": "2025-06-10 15:40:00",
+          "value": 2340,
+          "day": "2025-06-10",
+          "dayOfWeek": "Tuesday",
+          "hour": 15,
+          "duration": 2400
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-10 18:30:00",
+          "startDate": "2025-06-10 18:00:00",
+          "endDate": "2025-06-10 18:25:00",
+          "value": 1780,
+          "day": "2025-06-10",
+          "dayOfWeek": "Tuesday",
+          "hour": 18,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-10 20:45:00",
+          "startDate": "2025-06-10 20:15:00",
+          "endDate": "2025-06-10 20:40:00",
+          "value": 1230,
+          "day": "2025-06-10",
+          "dayOfWeek": "Tuesday",
+          "hour": 20,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-11 07:30:00",
+          "startDate": "2025-06-11 07:00:00",
+          "endDate": "2025-06-11 07:25:00",
+          "value": 2450,
+          "day": "2025-06-11",
+          "dayOfWeek": "Wednesday",
+          "hour": 7,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-11 09:45:00",
+          "startDate": "2025-06-11 09:15:00",
+          "endDate": "2025-06-11 09:40:00",
+          "value": 1890,
+          "day": "2025-06-11",
+          "dayOfWeek": "Wednesday",
+          "hour": 9,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "iPhone 13",
+          "deviceInfo": {
+            "name": "iPhone",
+            "manufacturer": "Apple Inc.",
+            "model": "iPhone",
+            "hardware": "iPhone14,5",
+            "software": "18.4.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-11 11:30:00",
+          "startDate": "2025-06-11 11:00:00",
+          "endDate": "2025-06-11 11:25:00",
+          "value": 670,
+          "day": "2025-06-11",
+          "dayOfWeek": "Wednesday",
+          "hour": 11,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-11 13:15:00",
+          "startDate": "2025-06-11 12:45:00",
+          "endDate": "2025-06-11 13:10:00",
+          "value": 1340,
+          "day": "2025-06-11",
+          "dayOfWeek": "Wednesday",
+          "hour": 13,
+          "duration": 1500
+        },
+        {
+          "type": "HKQuantityTypeIdentifierStepCount",
+          "sourceName": "Apple Watch",
+          "deviceInfo": {
+            "name": "Apple Watch",
+            "manufacturer": "Apple Inc.",
+            "model": "Watch",
+            "hardware": "Watch7,1",
+            "software": "11.3.1"
+          },
+          "unit": "count",
+          "creationDate": "2025-06-11 15:00:00",
+          "startDate": "2025-06-11 14:30:00",
+          "endDate": "2025-06-11 14:55:00",
+          "value": 980,
+          "day": "2025-06-11",
+          "dayOfWeek": "Wednesday",
+          "hour": 14,
+          "duration": 1500
+        }
+      
   ]
-  
