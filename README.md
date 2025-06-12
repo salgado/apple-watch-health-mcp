@@ -98,14 +98,3 @@ This is the final step to connect your MCP server to the Claude Desktop client.
 * `.gitignore`: A standard file that tells Git which files and directories to ignore.
 * `README.md`: This file, providing instructions to run the complete solution.
 
-
-
-    "Apple Health Steps": {
-      "command": "/Users/alexsalgado/.local/bin/uv",
-      "args": [
-        "--directory",
-        "/Users/alexsalgado/Desktop/lixo/apple-watch-health-mcp",
-        "run",
-        "apple_watch_mcp.py"
-      ]
-    },
