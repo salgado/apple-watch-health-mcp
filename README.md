@@ -11,7 +11,7 @@ Before you begin, ensure you have the following installed and running:
 * **Python 3.10+**
 * **Elasticsearch**: An instance of Elasticsearch 8.x running locally at `http://localhost:9200`.
 * **Claude Desktop**: The MCP client we will use to interact with the server.
-* **uv** or **pip**: For managing Python packages.
+* **uv** : For managing Python packages.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ Follow these steps to set up your local environment and install the necessary de
 
 Open your terminal or command prompt and navigate to the project folder.
 ```shell
-cd path/to/your/folder/blog-building-mcp-apple-watch
+cd path/to/your/folder/apple-watch-health-mcp
 ```
 
 ### 2. Initialize the Python Project
@@ -49,7 +49,7 @@ source .venv/bin/activate
 
 Install the necessary Python packages. Note that we are specifying a compatible version for the `elasticsearch` library to match the v8.x server used in this tutorial.
 ```shell
-uv add "mcp[cli]" "elasticsearch>=8.0.0,<9.0.0" httpx pydantic
+uv add "mcp[cli]" "elasticsearch>=8.0.0,<9.0.0" aiohttp pydantic
 ```
 
 ## Usage Instructions
@@ -83,6 +83,37 @@ This is the final step to connect your MCP server to the Claude Desktop client.
     ```
     This command registers the server in Claude Desktop's configuration file.
 
+    Run the command below to view the contents of this file. 
+    
+    ```shell
+
+        cat ~/Library/Application\ Support/Claude/claude_desktop_config.json  
+    
+    ```
+
+You should see a structure similar to this inside the file, under the "mcpServers" key: 
+
+ ```shell 
+
+{
+  "mcpServers": {
+    "Apple Health Steps": {
+      "command": "/full/path/to/your/uv",
+      "args": [
+        "--directory",
+        "/path/to/repository/apple-watch-health-mcp",
+        "run",
+        "apple_watch_mcp.py"
+        // Other arguments may appear depending on your setup
+      ]
+    }
+    // ... other servers might be listed here
+  }
+}
+
+ ``` 
+
+
 2.  **Restart Claude Desktop**: You **must** close and reopen the Claude Desktop application for it to load the new server configuration.
 
 3.  **Start Chatting**: Once restarted, Claude will automatically run your MCP server in the background. You can now ask it questions about your health data in natural language. Try these examples from the blog post:
@@ -95,6 +126,5 @@ This is the final step to connect your MCP server to the Claude Desktop client.
 * `apple_watch_mcp.py`: The **complete and final script** for the MCP server, containing all implemented Resources, Tools, and Prompts.
 * `ingest_data.py`: A helper script that populates your Elasticsearch instance with the sample data.
 * `sample_data.json`: A JSON file containing fictitious Apple Health step count data for testing.
-* `.gitignore`: A standard file that tells Git which files and directories to ignore.
 * `README.md`: This file, providing instructions to run the complete solution.
 
