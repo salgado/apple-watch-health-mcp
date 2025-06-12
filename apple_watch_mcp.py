@@ -8,10 +8,11 @@ Author: Alex Salgado
 
 from typing import Any, Optional
 import json
-import httpx
 from datetime import datetime
 from pydantic import BaseModel, field_validator, ValidationError
 from mcp.server.fastmcp import FastMCP
+from elasticsearch import AsyncElasticsearch
+from contextlib import asynccontextmanager
 
 # Initialize FastMCP server
 mcp = FastMCP("apple-watch-steps")
@@ -19,6 +20,7 @@ mcp = FastMCP("apple-watch-steps")
 # Constants
 ES_HOST = "http://localhost:9200"
 ES_INDEX = "apple-health-steps"
+
 
 # Pydantic model for parameter validation
 class QueryStepDataParams(BaseModel):
@@ -44,23 +46,32 @@ class QueryStepDataParams(BaseModel):
             raise ValueError(f"Invalid aggregation. Use one of: {valid_aggregations[:-1]}")
         return value
 
+@asynccontextmanager
+async def get_es_client():
+    """Context manager for Elasticsearch client."""
+    client = AsyncElasticsearch([ES_HOST])
+    try:
+        yield client
+    finally:
+        await client.close()
+
 # Elasticsearch helper function
 async def query_elasticsearch(query: dict) -> dict[str, Any] | None:
     """Makes a request to Elasticsearch with proper error handling."""
     print(f"Sending query to Elasticsearch: {json.dumps(query)}")
     
-    async with httpx.AsyncClient() as client:
+    # Use context manager
+    async with get_es_client() as client:
         try:
-            response = await client.post(
-                f"{ES_HOST}/{ES_INDEX}/_search",
-                json=query,
-                timeout=30.0
+            response = await client.search(
+                index=ES_INDEX,
+                body=query
             )
-            response.raise_for_status()
-            return response.json()
+            return response
         except Exception as e:
             print(f"Error querying Elasticsearch: {e}")
             return None
+
 
 # Resources
 @mcp.resource("health://steps/types")
