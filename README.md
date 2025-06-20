@@ -50,6 +50,7 @@ source .venv/bin/activate
 Install the necessary Python packages. Note that we are specifying a compatible version for the `elasticsearch` library to match the v8.x server used in this tutorial.
 ```shell
 uv add "mcp[cli]" "elasticsearch>=8.0.0,<9.0.0" aiohttp pydantic
+
 ```
 
 ## Environment Configuration
@@ -139,14 +140,3 @@ You should see a structure similar to this inside the file, under the "mcpServer
 * `ingest_data.py`: A helper script that populates your Elasticsearch instance with the sample data.
 * `sample_data.json`: A JSON file containing fictitious Apple Health step count data for testing.
 * `README.md`: This file, providing instructions to run the complete solution.
-
-##
-"Apple Health Steps": {
-      "command": "/Users/alexsalgado/.local/bin/uv",
-      "args": [
-        "--directory",
-        "/Users/alexsalgado/Desktop/blog-building-mcp-apple-watch",
-        "run",
-        "apple_watch_mcp.py"
-      ]
-    },
