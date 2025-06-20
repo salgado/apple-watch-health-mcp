@@ -3,11 +3,17 @@
 
 import json
 from elasticsearch import Elasticsearch, helpers
+import os
+
 
 # --- Configuration ---
 ES_HOST = "http://localhost:9200"
 ES_INDEX = "apple-health-steps"
 DATA_FILE_PATH = "sample_data.json"
+
+# API key from environment variable or fallback for development
+ES_API_KEY = os.getenv('ES_API_KEY')
+
 
 # --- Index Mapping ---
 # This mapping is taken directly from the article to ensure consistency.
@@ -60,7 +66,10 @@ def create_es_client():
     """Creates and returns an Elasticsearch client."""
     print(f"Connecting to Elasticsearch at {ES_HOST}...")
     try:
-        client = Elasticsearch(hosts=[ES_HOST])
+        client = Elasticsearch(
+            hosts=[ES_HOST],
+            api_key=ES_API_KEY
+        )
         if not client.ping():
             raise ConnectionError("Could not connect to Elasticsearch.")
         print("Connection successful!")

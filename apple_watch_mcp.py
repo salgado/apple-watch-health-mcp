@@ -5,7 +5,7 @@ A Model Context Protocol server for querying Apple HealthKit step data stored in
 
 Author: Alex Salgado
 """
-
+import os
 from typing import Any, Optional
 import json
 from datetime import datetime
@@ -20,6 +20,9 @@ mcp = FastMCP("apple-watch-steps")
 # Constants
 ES_HOST = "http://localhost:9200"
 ES_INDEX = "apple-health-steps"
+
+# API key from environment variable or fallback for development
+ES_API_KEY = os.getenv('ES_API_KEY')
 
 
 # Pydantic model for parameter validation
@@ -49,7 +52,7 @@ class QueryStepDataParams(BaseModel):
 @asynccontextmanager
 async def get_es_client():
     """Context manager for Elasticsearch client."""
-    client = AsyncElasticsearch([ES_HOST])
+    client = AsyncElasticsearch([ES_HOST], api_key=ES_API_KEY)
     try:
         yield client
     finally:

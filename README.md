@@ -52,9 +52,21 @@ Install the necessary Python packages. Note that we are specifying a compatible 
 uv add "mcp[cli]" "elasticsearch>=8.0.0,<9.0.0" aiohttp pydantic
 ```
 
+## Environment Configuration
+
+### Setting up the API Key
+
+After creating the API key in Elasticsearch, you need to configure it in your environment:
+
+```bash
+# Export the API key for the current session
+export ES_API_KEY="your_encoded_api_key_here"
+```
+
 ## Usage Instructions
 
 With the environment set up, you can now run the solution.
+
 
 ### 1. Ingest the Sample Data
 
@@ -128,3 +140,13 @@ You should see a structure similar to this inside the file, under the "mcpServer
 * `sample_data.json`: A JSON file containing fictitious Apple Health step count data for testing.
 * `README.md`: This file, providing instructions to run the complete solution.
 
+##
+"Apple Health Steps": {
+      "command": "/Users/alexsalgado/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/alexsalgado/Desktop/blog-building-mcp-apple-watch",
+        "run",
+        "apple_watch_mcp.py"
+      ]
+    },
