@@ -49,8 +49,9 @@ INDEX_MAPPING = {
         }
     },
     "settings": {
-        "number_of_shards": 1,
-        "number_of_replicas": 0
+        "number_of_shards": 1,  # WARNING: For production, consider using more shards based on your data volume
+        "number_of_replicas": 0  # WARNING: This is set to 0 for development. For production, use at least 1 replica for fault tolerance
+        
     }
 }
 
